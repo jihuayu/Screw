@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "screw",
+  "name": "Screw",
+  "description": "screw is a api mod!",
+  "version": "0.1.0",
+  "side": "universal",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "com.jihuayu.screw.Screw"
+      }
+    ]
+  },
+  "requires": {
+  },
+  "mixins": [
+    "screw.common.json",
+    "screw.client.json",
+    "screw.server.json"
+  ],
+  "custom": {
+    "screw": "com.jihuayu"
+  }
+}
